@@ -107,6 +107,7 @@ function load_stage()
 		inspector.image = inspector.image_right
 		reggie.image = reggie.image_right
 	elseif stage == PLANET_BLORGONS then
+		timebooth.state = STAND
 	end
 end
 
